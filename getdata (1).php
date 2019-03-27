@@ -1537,20 +1537,20 @@ else if(@$_GET['fieldKey']=='get_meaning_word'){
 			$meaning['dash']='-';
 			array_push($meanings,$meaning);
 		}
-		$no_meanings = array(
-		  array("meaning"=>$meaning1,
-		  	"meaning_type"=>'1',	  	
-		  ),array("meaning"=>$meaning2,
-		  	"meaning_type"=>'2',	  	
-		  ),array("meaning"=>$meaning3,
-		  	"meaning_type"=>'3',	  	
-		  ),array("meaning"=>$meaning4,
-		  	"meaning_type"=>'N',	  	
-		  ),
-	  );
-	$array=array('meaningwords'=>$meanings ,'no_meanings'=>$no_meanings );
+		// $no_meanings = array(
+		//   array("meaning"=>$meaning1,
+		//   	"meaning_type"=>'1',	  	
+		//   ),array("meaning"=>$meaning2,
+		//   	"meaning_type"=>'2',	  	
+		//   ),array("meaning"=>$meaning3,
+		//   	"meaning_type"=>'3',	  	
+		//   ),array("meaning"=>$meaning4,
+		//   	"meaning_type"=>'N',	  	
+		//   ),
+	 //  );
+	//$array=array('meaningwords'=>$meanings ,'no_meanings'=>$no_meanings );
 
-	 echo json_encode($array);
+	// echo json_encode($array);
 }
 //============
 ?>
